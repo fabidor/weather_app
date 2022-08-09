@@ -152,7 +152,7 @@ function displayWeather(weatherHolder){
 
     }
     catch(error){
-        document.querySelector('.errorBox').textContent = "City Not Found. Try Again";
+        document.querySelector('.errorBox').textContent = "City Not Found. Try Again.";
     }
 }
 function chooseSymbol(weather, description){
