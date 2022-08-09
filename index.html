@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src = "script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Asap">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">Weather</div>
+    <div class="content">
+        <div class="leftWing">
+            <div class="sunRise">
+                <div class="subheading">Sunrise:</div>
+                <div id="sunrise"></div>
+            </div>
+            <div class="sunSet">
+                <div class="subheading">Sunset:</div>
+                <div id="sunset"></div>
+            </div>
+        </div>
+        <div class="center">
+            <div id="place"></div>
+            <div id="temperature"></div>
+            <div id="symbol"></div>
+        </div>
+        <div class="rightWing">
+            <div class="feelsLike">
+                <div class="subheading">Feels Like:</div>
+                <div id="feelslike"></div>
+            </div>
+            <div class="humidity">
+                <div class="subheading">Humidity:</div>
+                <div id="humidity"></div>
+            </div>
+            <div class="wind">
+                <div class="subheading">Wind:</div>
+                <div id="wind"></div>
+            </div>
+        </div>
+        <div class="input">
+            <form>
+                <input id="city" name="city" required>
+                <button id="submit">Submit</button>
+            </form>
+            <div class="errorBox"></div>
+            <div class = 'cf'>
+                <div id="c">C</div>
+                <div id="f">F</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">Photo by <a href="https://unsplash.com/@luisjlara343?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Luis Lara</a> on <a href="https://unsplash.com/s/photos/weather?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    </div>
+    
+</body>
+</html>
